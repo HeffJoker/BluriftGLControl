@@ -11,7 +11,7 @@ http://www.jfmajor.com/post/38447851593/monogame-in-wpf
 
 ## Quick Start
 
-Well for started this uses the opengl branch of monogame, something will need to be refenced in your C# project on visual studio to also get this working.
+Well for started this uses the opengl branch of monogame, some things will need to be refenced in your C# project on visual studio to also get this working. To use this there is an included edited version of the Monogame .dll files which have some slight differences in how the GraphicsDevice is created so if you do not use this dll you wpf app will no compile.
 
 I do plan on making a example app also.
 
