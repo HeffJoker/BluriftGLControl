@@ -71,7 +71,7 @@ namespace WorldEditor
                 GraphicsAdapter.DefaultAdapter,
                 GraphicsProfile.Reach,
                 parameters);
-            graphicsDevice = new GraphicsDevice();
+            //graphicsDevice = new GraphicsDevice();
             //graphicsDevice.PresentationParameters = parameters;
 
 

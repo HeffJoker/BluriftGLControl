@@ -266,6 +266,11 @@ namespace WorldEditor
             return this.Width;
         }
 
+        public int getHeight()
+        {
+            return this.Height;
+        }
+
         protected override void WndProc(ref System.Windows.Forms.Message msg)
         {
             switch (msg.Msg)
