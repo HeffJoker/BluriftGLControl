@@ -10,7 +10,7 @@
 using System;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace WorldEditor
+namespace WPFGLControl
 {
     /// <summary>
     /// Arguments used for GraphicsDevice related events.

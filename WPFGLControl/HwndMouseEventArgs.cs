@@ -11,7 +11,7 @@ using System;
 using System.Windows.Input;
 using System.Windows;
 
-namespace WorldEditor
+namespace WPFGLControl
 {
     /// <summary>
     /// Event arguments used for mouse events in the GraphicsDeviceControl.
