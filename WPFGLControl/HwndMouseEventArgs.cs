@@ -11,7 +11,7 @@ using System;
 using System.Windows.Input;
 using System.Windows;
 
-namespace WPFGLControl
+namespace Blurift.WPFGLControl
 {
     /// <summary>
     /// Event arguments used for mouse events in the GraphicsDeviceControl.

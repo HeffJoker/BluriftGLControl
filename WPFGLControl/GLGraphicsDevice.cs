@@ -13,7 +13,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
-namespace WPFGLControl
+namespace Blurift.WPFGLControl
 {
     public class GLGraphicsDevice : GLControl
     {
@@ -26,7 +26,7 @@ namespace WPFGLControl
         // The GraphicsDeviceService that provides and manages our GraphicsDevice
         public GraphicsDeviceService graphicsService;
         GameServiceContainer services = new GameServiceContainer();
-        public ContentManager content;
+        protected ContentManager content;
         public event EventHandler<GraphicsDeviceEventArgs> RenderXna;
         public event EventHandler<GraphicsDeviceEventArgs> LoadContent;
         private bool applicationHasFocus = false;
@@ -128,6 +128,17 @@ namespace WPFGLControl
         /// Invoked when the control gets a mouse wheel message.
         /// </summary>
         public event EventHandler<HwndMouseEventArgs> HwndMouseWheel;
+
+        public ContentManager Content
+        {
+            get { return content; }
+        }
+
+        public ContentManager NewContentManager(string rootDirectory)
+        {
+            content = new ContentManager(services, rootDirectory);
+            return content;
+        }
 
         public GLGraphicsDevice()
         {

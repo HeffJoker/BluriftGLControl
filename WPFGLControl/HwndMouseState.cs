@@ -10,7 +10,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace WPFGLControl
+namespace Blurift.WPFGLControl
 {
     /// <summary>
     /// Represents the state of a mouse. Used by the GraphicsDeviceControl to track mouse state

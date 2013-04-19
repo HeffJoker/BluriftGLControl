@@ -11,7 +11,7 @@ using System;
 using System.Threading;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace WPFGLControl
+namespace Blurift.WPFGLControl
 {
     /// <summary>
     /// Helper class responsible for creating and managing the GraphicsDevice.

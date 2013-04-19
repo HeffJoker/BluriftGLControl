@@ -10,7 +10,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace WPFGLControl
+namespace Blurift.WPFGLControl
 {
     /// <summary>
     /// An internal set of functionality used for interopping with native Win32 APIs.
